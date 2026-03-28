@@ -87,7 +87,7 @@ namespace TestWins
 
         private void ShowResult(bool success, string action)
         {
-            var msg = success ? $"✅ {action} successfully!" : $"❌ Failed to {action}!";
+            var msg = success ? $" {action} successfully!" : $" Failed to {action}!";
             MessageBox.Show(msg, success ? "Success" : "Error");
         }
     }
